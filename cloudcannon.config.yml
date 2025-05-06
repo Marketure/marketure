@@ -1,0 +1,22 @@
+collections_config:
+  blog:
+    path: src/content/blog
+    name: Blog
+    icon: event_available
+  team:
+    path: src/content/team
+    name: Team
+    icon: tram
+  pages:
+    path: ''
+    name: Pages
+    icon: wysiwyg
+    disable_url: true
+paths:
+  static: public
+  uploads: public/uploads
+timezone: America/New_York
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
